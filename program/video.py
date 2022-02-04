@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By Veez Music-Project
+# Copyright (C) 2021 By SongsHut-Project
 # Commit Start Date 20/10/2021
 # Finished On 28/10/2021
 
@@ -163,7 +163,7 @@ async def vplay(c: Client, m: Message):
                     amaze = MediumQualityVideo()
                 elif Q == 360:
                     amaze = LowQualityVideo()
-                await loser.edit("🔄 **Joining vc...**")
+                await loser.edit("🔄 **Joining MH...**")
                 await call_py.join_group_call(
                     chat_id,
                     AudioVideoPiped(
