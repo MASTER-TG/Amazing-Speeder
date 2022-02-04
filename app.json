@@ -1,5 +1,5 @@
 {
-    "name": "Speeder Music Stream Bot",
+    "name": "Songs HuT Stream Bot",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
     "logo": "https://telegra.ph/file/1c41ded2dd871eb36bd7e.png",
     "keywords": [
@@ -8,9 +8,9 @@
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/SLEHIGROUP",
-    "repository": "https://github.com/OsharaShaveen/Amazing-Speeder",
-    "success_url": "https://t.me/WhiteDevilOp999",
+    "website": "https://t.me/MemesHut",
+    "repository": "https://github.com/MASTER-TG/Amazing-Speeder",
+    "success_url": "https://t.me/TG_Nsns_999",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
@@ -47,22 +47,22 @@
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
             "required": true,
-            "value": "Dp_Bots"
+                "value": "Memeshut"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": true,
-            "value": "Dp_Bots_Channel"
+            "value": "Memes_Hut"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
             "required": true,
-            "value": "WhiteDevilOp999"
+            "value": "TG_Nsns_999"
         },
         "ALIVE_NAME": {
             "description": "fill with your telegram account nickname/name",
             "required": true,
-            "value": "Speeder 1.2"
+            "value": "𝚂𝙾𝙽𝙶𝚂⭐️🅷🆄🆃 |𝙱𝙾𝚃"
         }
     },
     "addons": [],
