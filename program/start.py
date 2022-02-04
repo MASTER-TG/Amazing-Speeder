@@ -60,7 +60,7 @@ async def start_(client: Client, message: Message):
 
 ✘ **To know how to use this bot, please click on the » ❓ Basic Guide button!**
 
-𖣘 **Respect My Master, My Master Is [WHITE DEVIL](t.me/WhiteDevilOp999)**
+𖣘 **Respect My Master, My Master Is [WHITE DEVIL](t.me/TG_Nsns_999)**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -73,7 +73,7 @@ async def start_(client: Client, message: Message):
                 [InlineKeyboardButton("❓ Basic Guide", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("𖣘 Commands", callback_data="cbcmds"),
-                    InlineKeyboardButton("ツ Contact My Owner", url=f"https://t.me/WhiteDevilOp999"),
+                    InlineKeyboardButton("ツ Contact My Owner", url=f"https://t.me/TG_Nsns_999"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -85,7 +85,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        " ツSource Code", url="https://github.com/OsharaShaveen/Speeder"
+                        " ツSource Code", url="🔐Locked By @TG_Nsns_999"
                     )
                 ],
             ]
@@ -105,15 +105,15 @@ async def alive(client: Client, message: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("✨ Official Group", url=f"https://t.me/Dp_Bots"),
+                InlineKeyboardButton("✨ Official Group", url=f"https://t.me/MemesHut"),
                 InlineKeyboardButton(
-                    "📣 Official Channel", url=f"https://t.me/Dp_Bots_Channel"
+                    "📣 Official Channel", url=f"https://t.me/Memes_Hut"
                 ),
             ]
         ]
     )
 
-    alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [White Devil](https://t.me/WhiteDevilOp999)\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing video & music on your Group's video chat** ❤"
+    alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [̅͟𝗧ᴳ✘⭕️ғғɪᴄͣɪͫ͢ꫝ🔥⃝𝐏ᴀꜱɪʏᴀ](https://t.me/TG_Nsns_999)\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing video & music on your Group's video chat** ❤"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
@@ -155,8 +155,8 @@ async def new_chat(c: Client, m: Message):
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/Dp_Bots_Channel"),
-                            InlineKeyboardButton("💭 Support", url=f"https://t.me/Dp_Bots")
+                            InlineKeyboardButton("📣 Channel", url=f"https://t.me/Memes_Hut"),
+                            InlineKeyboardButton("💭 Support", url=f"https://t.me/MemesHut")
                         ],
                         [
                             InlineKeyboardButton("👤 Assistant", url=f"https://t.me/{ass_uname}")
