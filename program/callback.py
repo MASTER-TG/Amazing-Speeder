@@ -1,4 +1,4 @@
-# Copyright (C) 2021 By VeezMusicProject
+# Copyright (C) 2021 By SongsHutProject
 
 from driver.queues import QUEUE
 from pyrogram import Client, filters
@@ -46,7 +46,7 @@ async def cbstart(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🌐 Source Code", url="https://github.com/OsharaShaveen/Speeder"
+                        "🌐 Source Code", url="🔐Locked By @TG_Nsns_999"
                     )
                 ],
             ]
@@ -71,7 +71,7 @@ async def cbguides(_, query: CallbackQuery):
 
 💡 **If you have a follow-up questions about this bot, you can tell it on my support chat here: @{GROUP_SUPPORT}**
 
-⚡ __Powered by DP BOTS A.I__""",
+⚡ __Powered by SHENU BOTS A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbstart")]]
         ),
@@ -85,7 +85,7 @@ async def cbcmds(_, query: CallbackQuery):
 
 » **press the button below to read the explanation and see the list of available commands !**
 
-⚡ __Powered by DP BOTS A.I__""",
+⚡ __Powered by SHENU BOTS A.I__""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -121,7 +121,7 @@ async def cbbasic(_, query: CallbackQuery):
 » /uptime - show the bot uptime status
 » /alive - show the bot alive info (in group)
 
-⚡️ __Powered by DP BOTS AI__""",
+⚡️ __Powered by SHENU BOTS AI__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -144,7 +144,7 @@ async def cbadmin(_, query: CallbackQuery):
 » /userbotjoin - invite the userbot to join group
 » /userbotleave - order userbot to leave from group
 
-⚡️ __Powered by DP BOTS AI__""",
+⚡️ __Powered by SHENU BOTS AI__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
@@ -162,7 +162,7 @@ async def cbsudo(_, query: CallbackQuery):
 » Netflix = [Netflix](Link)
 » Twitter = [Twitter](Link)
 
-⚡ __Powered by DP BOTS AI__""",
+⚡ __Powered by SHENU BOTS AI__""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("🔙 Go Back", callback_data="cbcmds")]]
         ),
